@@ -8,7 +8,7 @@ By combining computer vision and local AI agents, GoatCatcherAI provides real-ti
 
 ## 🔄 How it Works
 
-📷 Kidding Pen Camera  ──→ 🤖 AI Computer Vision (YOLO) ──→ ⚡ Event Detection (Kidding / Mounting) ──→ 💽 Save Event Image ──→  📲 Telegram Notification with Image & AI Reasoning
+📷 Kidding Pen Camera  ──→ 🤖 AI Computer Vision (YOLO) ──→ ⚡ Event Detection (Kidding / Mounting) ──→ 💽 Save Event Image ──→  📲 Telegram Notification with Image & video
 
 ---
 
@@ -17,8 +17,6 @@ By combining computer vision and local AI agents, GoatCatcherAI provides real-ti
 We combine multiple cutting-edge, open-source technologies to create a reliable monitoring system that runs on the core [AI Detector](https://github.com/ESchouten/ai-detector) software:
 
 * **Computer Vision:** Powered by **Ultralytics YOLO** for real-time tracking and behavior detection (mounting, restlessness, labor positions).
-* **Thermal Imaging Support:** Optimized for IP cameras with thermal lenses. This allows the system to accurately detect heat signatures of the doe/ewe and the newborn kid, identify the exact moment of birth, and perform a final check to confirm the newborn is alive and moving.
-* **Local AI Agents:** Integrates with lightweight, locally hosted vision-language models like **Qwen 2.5-VL / Qwen 3.0** and **Moondream AI** (fine-tuned with kidding/lambing context) to analyze images. Alternatively, it can connect to cloud-based LLM APIs.
 * **Smart Alerts:** Instant Telegram notifications including the captured image and the AI agent's expert reasoning.
 
 ---
@@ -65,4 +63,3 @@ This project is made possible by the amazing [Ultralytics YOLO](https://github.c
 
 This is an open-source project. You may modify, improve, and adapt it to your specific farm setup. Contributions are highly welcome via Pull Requests!
 
-<img width="2048" height="2048" alt="GoatCatcherAI Mascot" src="https://github.com/user-attachments/assets/ffdb8a70-6aa4-4ae3-b6da-7813b5b9fa7b" />
